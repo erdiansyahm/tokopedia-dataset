@@ -1,0 +1,841 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["Hai", "Halo", "Apa kabarmu?", "Apakah ada orang di sana?", "Selamat pagi"],
+      "responses": ["Halo!", "Hai, yang di sana!", "Salam!", "Bagaimana cara membantu Anda hari ini?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Selamat tinggal", "Sampai jumpa lagi", "Selamat tinggal"],
+      "responses": ["Selamat tinggal!", "Sampai jumpa lagi!", "Hati-hati di jalan!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Terima kasih", "Terima kasih", "Itu membantu"],
+      "responses": ["Terima kasih kembali!", "Saya senang bisa membantu!", "Kapan pun!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Siapa namamu?", "Siapa kamu?", "Ceritakan tentang diri Anda"],
+      "responses": ["Saya adalah chatbot AI yang dibuat untuk membantu Anda.", "Saya asisten virtual Anda."]
+    },
+    {
+      "tag": "services",
+      "patterns": ["Layanan apa yang Anda berikan?", "Bagaimana Anda bisa membantu saya?", "Apa yang bisa kamu lakukan?"],
+      "responses": ["Saya dapat membantu Anda dengan berbagai tugas, seperti menjawab pertanyaan dan memberikan informasi.", "Saya dapat membantu menjawab pertanyaan umum dan menawarkan dukungan."]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["Hai", "Apa kabarmu?", "Apakah ada orang di sana?", "Halo", "Selamat tinggal", "Ada apa", "Bagaimana kabarmu", "heyy", "whatsup", "????????"],
+      "responses": ["Halo!", "Senang bertemu denganmu lagi!", "Halo, bagaimana saya bisa membantu?"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["sampai jumpa", "selamat tinggal", "Sampai jumpa lagi", "Selamat tinggal", "Saya akan pergi", "Selamat tinggal", "Semoga harimu menyenangkan", "Bicaralah denganmu nanti", "saya harus pergi", "GTG"],
+      "responses": ["Sedih melihatmu pergi :(", "Berbicara denganmu nanti", "Selamat tinggal!", "Kembalilah segera"],
+      "context_set": ""
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "apa nama pengembang Anda",
+        "apa nama pencipta Anda",
+        "apa nama pengembang",
+        "apa nama pencipta",
+        "siapa yang menciptakanmu",
+        "Pengembang Anda",
+        "pencipta Anda",
+        "Siapa pengembang Anda",
+        "pengembang",
+        "Anda dibuat oleh",
+        "Anda dibuat oleh siapa",
+        "siapa yang menciptakanmu",
+        "siapa yang menciptakan Anda",
+        "pencipta",
+        "siapa yang membuatmu",
+        "siapa yang mendesain Anda"
+      ],
+      "responses": ["Mahasiswa"],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "nama",
+        "Nama Anda",
+        "Apakah Anda memiliki nama",
+        "apa namanya",
+        "Siapa namamu",
+        "Apa yang harus saya hubungi Anda",
+        "siapa namamu?",
+        "apa yang kamu",
+        "siapa kamu",
+        "siapa ini",
+        "apa yang saya ajak ngobrol",
+        "Siapa yang saya bawa",
+        "apa yang kamu"
+      ],
+      "responses": ["Anda bisa memanggil saya pembaca pikiran.", "Saya pembaca pikiran", "Saya seorang chatbot.", "Saya penolong Anda"],
+      "context_set": ""
+    },
+    {
+      "tag": "hours",
+      "patterns": ["hari kerja", "Kapan kalian buka", "Jam berapa Anda", "jam operasi", "Kapan College Terbuka", "bagaimana dengan waktu kuliah", "Apakah buka pada hari Sabtu"],
+      "responses": ["Tokopedia melayani Anda dalam 1x24 jam"],
+      "context_set": ""
+    },
+    {
+      "tag": "number",
+      "patterns": [
+        "info lebih lanjut",
+        "info kontak",
+        "Bagaimana cara menghubungi kuliah",
+        "nomor telepon perguruan tinggi",
+        "nomor perguruan tinggi",
+        "Apa kontak Anda tidak",
+        "Nomor kontak?",
+        "Bagaimana menelepon Anda",
+        "Telepon perguruan tinggi tidak?",
+        "bagaimana saya bisa menghubungi Anda",
+        "Bisakah saya mendapatkan nomor telepon Anda",
+        "bagaimana saya bisa menelepon Anda",
+        "nomor telepon",
+        "telepon tidak",
+        "panggilan"
+      ],
+      "responses": ["Anda dapat menghubungi 089609181631"],
+      "context_set": ""
+    },
+    {
+      "tag": "product",
+      "patterns": [
+        "Daftar produk yang ditawarkan",
+        "Apa saja produk yang ditawarkan di tokopedia?",
+        "produk?",
+        "produk yang ditawarkan",
+        "produk yang Anda tawarkan",
+        "Cabang?",
+        "Produk tersedia di tokopedia?",
+        "Apa saja produk di tokopedia?",
+        "Bisakah Anda memberi tahu saya produk yang tersedia di tokopedia?"
+      ],
+      "responses": [
+        "Tokopedia menawarkan berbagai produk seperti Peralatan rumah tangga, Elektronik, Fashion, Buku, Film & musik, Gaming, Kecantikan, Kesehatan, Logam Mulia, Mainan & Hobi, produk digital, tiket kereta, tiket pesawat, donasi, dan layanan finansial. Lebih detail check <a target=\"_blank\" href=\"https://www.tokopedia.com\">di sini</a> "
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "informasi tentang harga",
+        "informasi tentang harga",
+        "Ceritakan harganya",
+        "harga per barang",
+        "Berapa harga setiap produk",
+        "Berapa harga setiap barang",
+        "Berapa harga",
+        "Berapa harganya",
+        "berapa harganya",
+        "harga untuk produk ini",
+        "harga untuk barang ini",
+        "harga",
+        "tentang harga",
+        "Ceritakan sesuatu tentang harga",
+        "Berapa harga ini",
+        "berapa harganya"
+      ],
+      "responses": ["Untuk detail harga, check di store kunjungi tokopedia <a target=\"_blank\" href=\"https://www.tokopedia.com\">di sini</a>"],
+      "context_set": ""
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Dimana letak tokopedia",
+        "Tokopedia pusat terletak di",
+        "dimana tokopedia",
+        "Dimana letak kantor tokopedia",
+        "alamat tokopedia",
+        "Cara menuju tokopedia",
+        "Lokasi tokopedia",
+        "alamat kantor tokopedia",
+        "di mana tokopedia",
+        "bagaimana saya bisa menuju kantor tokopedia",
+        "apa alamat tokopedianya",
+        "apa alamat tokopedia",
+        "alamat",
+        "Lokasi"
+      ],
+      "responses": ["Untuk lokasi pusat Tokopedia, kunjungi <a target=\"_blank\" href=\"https://maps.app.goo.gl/KvSMXweR1evRn99E9\">di sini</a>"],
+      "context_set": ""
+    },
+    {
+      "tag": "promo",
+      "patterns": [
+        "promo yang diselenggarakan",
+        "Promo produk",
+        "Daftar promo yang ada di tokopedia",
+        "Daftar promo yang dilakukan di tokopedia",
+        "Promo apa yang dilakukan di tokopedia",
+        "Apakah ada promo yang diadakan di toko",
+        "Promo?",
+        "Diskon",
+        "apa promonya",
+        "Ceritakan tentang promo",
+        "Ceritakan tentang diskon",
+        "bagaimana dengan promo"
+      ],
+      "responses": [
+        "Untuk detail promo setiap produk, kunjungi <a target=\"_blank\" href=\"https://www.tokopedia.com\">di sini</a>",
+        "Silahkan check aplikasi Tokopedia, bakalan ada promo setiap harinya!",
+        "Diskon besar besaran, silahkan kunjungi <a target=\"_blank\" href=\"https://www.tokopedia.com\">di sini</a>",
+        "Belanja sebanyak mungkin, untuk mendapat diskon yang besar!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "shop",
+      "patterns": ["Ukuran toko", "Banyak toko", "Berapa banyak toko yang dimiliki tokopedia", "Toko di tokopedia", "Berapa toko yang ada di tokopedia", "Toko"],
+      "responses": ["Jumlah toko di Tokopedia per Juni 2024 adalah lebih dari 21 juta penjual. Hampir 100% dari jumlah tersebut merupakan pelaku usaha mikro, kecil, dan menengah (UMKM) lokal."],
+      "context_set": ""
+    },
+    {
+      "tag": "cashback",
+      "patterns": [
+        "apakah ada cashback",
+        "Fasilitas cashback",
+        "Apakah Anda memiliki cashback",
+        "Apakah tokopedia memiliki cashback",
+        "cashback Tokopedia",
+        "dimana saya bisa mendapatkan cashback",
+        "Dimana cashback",
+        "cashback",
+        "bagaimana mendapat cashback",
+        "bagaimana cashback",
+        "Informasi cashback",
+        "Ceritakan tentang cashback",
+        "berapa banyak cashback"
+      ],
+      "responses": [
+        "Ya, ada cashback di Tokopedia dan untuk mendapat cashback silahkan belanja <a target=\"_blank\" href=\"https://www.tokopedia.com\">di sini</a>",
+        "Pembeli bisa mendapatkan cashback dalam waktu maksimal 24 jam setelah transaksi selesai, selama memenuhi syarat dan ketentuan Tokopedia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "feature",
+      "patterns": ["fitur tokopedia", "fitur di tokopedia", "Apa fitur yang ada di tokopedia", "Apa fitur yang tersedia di tokopedia", "fitur apa yang bisa kita dapatkan di tokopedia"],
+      "responses": ["Tokopedia memiliki banyak fitur, di antaranya: Jual beli online, Layanan pengiriman, Fitur untuk penjual, Fitur untuk pembeli, Layanan lain, dll."],
+      "context_set": ""
+    },
+    {
+      "tag": "placement",
+      "patterns": ["Apa itu penempatan tokopedia", "Perusahaan mana yang dikunjungi di tokopedia", "Apa itu paket rata -rata", "Perusahaan berkunjung", "kemasan", "Tentang penempatan produk", "penempatan", "perekrutan", "perusahaan"],
+      "responses": ["Untuk mengetahui tentang penempatan, kunjungi <a target=\"_blank\" href=\"https://www.tokopedia.com\">di sini</a>"],
+      "context_set": ""
+    },
+    {
+      "tag": "founder",
+      "patterns": ["apa nama pendiri tokpedia", "apa nama pendiri", "Nama pendiri", "Siapa pendiri tokopedia", "Siapa yang punya tokopedia", "Pendiri", "Nama pendiri", "Milik siapa tokopedia", "Siapa yang bangun tokopedia"],
+      "responses": ["William Tanuwijaya mendirikan Tokopedia pada 17 Agustus 2009 bersama seorang temannya, Leontinus Alpha Edison."],
+      "context_set": ""
+    },
+    {
+      "tag": "random",
+      "patterns": ["Aku mencintaimu", "Maukah kamu menikah denganku", "Apakah kamu mencintaiku"],
+      "responses": ["Saya bukan program untuk ini, silakan tanyakan pertanyaan yang sesuai"],
+      "context_set": ""
+    },
+    {
+      "tag": "swear",
+      "patterns": ["fuck", "jalang", "diam", "neraka", "bodoh", "idiot", "pantat bodoh", "bajingan", "anjing", "babi", "tolol", "goblog", "pantek", "begok", "sialan", "keparat"],
+      "responses": ["Harap gunakan bahasa yang sesuai", "Mohon maaf, bisa anda ulangi dengan bahasa yang sopan", "Mempertahankan kesopanan akan dihargai"],
+      "context_set": ""
+    },
+    {
+      "tag": "vacation",
+      "patterns": ["Liburan", "Kapan Liburan", "Daftar Liburan", "Liburan di tahun ini", "Daftar Liburan", "tentang liburan", "tentang liburan", "Kapan liburan", "Kapan Liburan", "berapa lama liburan"],
+      "responses": ["Tokopedia libur tahun baru pada 28 Desember 2023 hingga 2 Januari 2024."],
+      "context_set": ""
+    },
+    {
+      "tag": "salutaion",
+      "patterns": ["okk", "Okie", "okok", "okey", "okay", "kerja bagus", "bagus sekali", "kerja bagus", "makasih", "Terima kasih atas bantuannya", "Terima kasih", "tidak apa-apa", "Terima kasih", "Kerja bagus", "k", "okee", "Oke", "Oke"],
+      "responses": ["Saya senang saya membantu Anda", "Gapapa, sudah menjadi tugas saya", "Terima kasih kembali! ada lagi yang bisa saya bantu?"],
+      "context_set": ""
+    },
+    {
+      "tag": "task",
+      "patterns": ["apa yang bisa kamu lakukan", "Apa hal yang dapat Anda lakukan", "hal -hal yang dapat Anda lakukan", "apa yang bisa kamu lakukan untukku", "bagaimana kamu bisa membantu saya", "Mengapa saya harus menggunakan Anda"],
+      "responses": ["Saya bisa menjawab pertanyaan-pertanyaan tentang E Commerce Tokopedia", "Anda dapat mengajukan pertanyaan kepada saya tentang Tokopedia, dan saya akan mencoba menjawabnya"],
+      "context_set": ""
+    }
+  ],
+  "questions": [
+    {
+      "question": "Bagaimana cara membuat akun?",
+      "answer": "Untuk membuat akun, klik tombol 'Daftar' di sudut kanan atas situs web kami dan ikuti instruksi untuk menyelesaikan proses pendaftaran."
+    },
+    {
+      "question": "Metode pembayaran apa yang Anda terima di Tokopedia?",
+      "answer": "Tokopedia menerima berbagai metode pembayaran, di antaranya GoPay, GoPayLater, OVO, Virtual Account, Transfer Bank, BRI Ceria, BCA KlikPay, Mandiri Clickpay, LinkAja, BRImo."
+    },
+    {
+      "question": "Bagaimana cara melacak pesanan saya?",
+      "answer": "Anda dapat melacak pesanan Anda dengan masuk ke akun Anda dan menavigasi ke bagian Daftar Transaksi, Anda akan menemukan informasi status untuk pesanan Anda."
+    },
+    {
+      "question": "Apa kebijakan pengembalian Anda?",
+      "answer": "Kebijakan pengembalian kami memungkinkan Anda untuk mengembalikan produk dalam waktu 30 hari setelah pembelian untuk pengembalian dana penuh, asalkan mereka berada dalam kondisi dan kemasan aslinya.Silakan merujuk ke halaman pengembalian kami untuk instruksi terperinci."
+    },
+    {
+      "question": "Bisakah saya membatalkan pesanan saya?",
+      "answer": "Anda dapat membatalkan pesanan Anda jika belum dikirim. Silakan hubungi tim dukungan pelanggan kami dengan detail pesanan Anda, dan kami akan membantu Anda dengan proses pembatalan."
+    },
+    {
+      "question": "Berapa lama waktu pengiriman?",
+      "answer": "Waktu pengiriman bervariasi tergantung pada tujuan dan metode pengiriman yang dipilih.Pengiriman standar biasanya memakan waktu 3-5 hari kerja, sementara pengiriman ekspres dapat memakan waktu 1-2 hari kerja."
+    },
+    {
+      "question": "Apakah Anda menawarkan pengiriman internasional?",
+      "answer": "Ya, kami menawarkan pengiriman internasional ke negara -negara tertentu. Biaya ketersediaan dan pengiriman akan dihitung selama proses checkout berdasarkan lokasi Anda."
+    },
+    {
+      "question": "Apa yang harus saya lakukan jika paket saya hilang atau rusak?",
+      "answer": "Jika paket Anda hilang atau rusak selama transit, silakan hubungi tim dukungan pelanggan kami segera.Kami akan memulai penyelidikan dan mengambil langkah -langkah yang diperlukan untuk menyelesaikan masalah."
+    },
+    {
+      "question": "Bisakah saya mengubah alamat pengiriman saya setelah melakukan pemesanan?",
+      "answer": "Jika Anda perlu mengubah alamat pengiriman Anda, silakan hubungi tim dukungan pelanggan kami sesegera mungkin.Kami akan melakukan yang terbaik untuk memperbarui alamat jika pesanan belum dikirim."
+    },
+    {
+      "question": "Bagaimana cara menghubungi dukungan pelanggan?",
+      "answer": "Anda dapat menghubungi tim dukungan pelanggan kami melalui WhatsApp Techpolitan di +62 812-2066-5557 atau Menggunakan Broadcast Chat melalui aplikasi Tokopedia, Aplikasi Tokopedia Seller (Android), dan desktop.Tim kami tersedia  24/7 untuk membantu Anda dengan pertanyaan atau masalah yang mungkin Anda miliki."
+    },
+    {
+      "question": "Apakah Anda menawarkan layanan pembungkus kado?",
+      "answer": "Ya, kami menawarkan layanan pembungkus hadiah dengan biaya tambahan.Selama proses checkout, Anda dapat memilih opsi untuk menambahkan pembungkus kado ke pesanan Anda."
+    },
+    {
+      "question": "Apa kebijakan pencocokan harga Anda?",
+      "answer": "Kami memiliki kebijakan pencocokan harga di mana kami akan mencocokkan harga produk identik yang ditemukan di situs web pesaing.Silakan hubungi tim dukungan pelanggan kami dengan rincian produk dan penawaran pesaing."
+    },
+    {
+      "question": "Bisakah saya memesan melalui telepon?",
+      "answer": "Sayangnya, kami tidak menerima pesanan melalui telepon.Harap letakkan pesanan Anda melalui situs web kami untuk transaksi yang lancar dan aman."
+    },
+    {
+      "question": "Apakah detail pribadi dan pembayaran saya aman?",
+      "answer": "Ya, kami menanggapi keamanan detail pribadi dan pembayaran Anda dengan serius.Kami menggunakan enkripsi standar industri dan mengikuti protokol keamanan yang ketat untuk memastikan informasi Anda dilindungi."
+    },
+    {
+      "question": "Apa Kebijakan Penyesuaian Harga Anda?",
+      "answer": "Jika produk yang Anda beli mulai dijual dalam waktu 7 hari setelah pembelian Anda, kami menawarkan penyesuaian harga satu kali.Silakan hubungi tim dukungan pelanggan kami dengan detail pesanan Anda untuk meminta penyesuaian."
+    },
+    {
+      "question": "Apakah Anda memiliki program loyalitas?",
+      "answer": "Ya, kami memiliki program loyalitas di mana Anda bisa mendapatkan poin untuk setiap pembelian.Poin -poin ini dapat ditebus dengan diskon untuk pesanan di masa depan.Silakan kunjungi situs web kami untuk mempelajari lebih lanjut dan bergabung dengan program ini."
+    },
+    {
+      "question": "Bisakah saya memesan tanpa membuat akun?",
+      "answer": "Ya, Anda dapat memesan sebagai tamu tanpa membuat akun.Namun, membuat akun menawarkan manfaat seperti pelacakan pesanan dan pembelian yang lebih mudah di masa depan."
+    },
+    {
+      "question": "Apakah Anda menawarkan diskon besar -besaran atau grosir?",
+      "answer": "Ya, kami menawarkan diskon besar -besaran atau grosir untuk produk tertentu.Silakan hubungi tim dukungan pelanggan kami atau kunjungi halaman grosir kami untuk informasi lebih lanjut dan untuk membahas persyaratan spesifik Anda."
+    },
+    {
+      "question": "Bisakah saya mengubah atau membatalkan item dalam pesanan saya?",
+      "answer": "Jika Anda perlu mengubah atau membatalkan item dalam pesanan Anda, silakan hubungi tim dukungan pelanggan kami sesegera mungkin.Kami akan membantu Anda dengan langkah -langkah yang diperlukan."
+    },
+    {
+      "question": "Bagaimana cara meninggalkan ulasan produk?",
+      "answer": "Untuk meninggalkan ulasan produk, navigasikan ke halaman produk di situs web kami dan klik tombol 'Tulis Ulasan'.Anda dapat membagikan umpan balik dan peringkat Anda berdasarkan pengalaman Anda dengan produk."
+    },
+    {
+      "question": "Bisakah saya menggunakan beberapa kode promo pada satu pesanan?",
+      "answer": "Biasanya, hanya satu kode promo yang dapat diterapkan per pesanan.Selama proses checkout, masukkan kode promo di bidang yang ditunjuk untuk menerapkan diskon pada pesanan Anda."
+    },
+    {
+      "question": "Apa yang harus saya lakukan jika saya menerima barang yang salah?",
+      "answer": "Jika Anda menerima item yang salah dalam pesanan Anda, silakan hubungi tim dukungan pelanggan kami segera.Kami akan mengatur barang yang benar untuk dikirimkan kepada Anda dan membantu mengembalikan barang yang salah."
+    },
+    {
+      "question": "Apakah Anda menawarkan pengiriman yang dipercepat?",
+      "answer": "Ya, kami menawarkan opsi pengiriman yang dipercepat untuk pengiriman yang lebih cepat.Selama proses checkout, Anda dapat memilih metode pengiriman yang dipercepat yang diinginkan."
+    },
+    {
+      "question": "Bisakah saya memesan produk yang tidak stok?",
+      "answer": "Jika suatu produk saat ini kehabisan stok, Anda biasanya akan melihat opsi untuk mendaftar untuk pemberitahuan produk.Dengan cara ini, Anda akan diberitahu ketika produk tersedia lagi."
+    },
+    {
+      "question": "Tentang buletin email Anda?",
+      "answer": "Newsletter email kami memberikan pembaruan tentang rilis produk baru, penawaran eksklusif, dan tips bermanfaat yang terkait dengan produk kami.Anda dapat berlangganan buletin kami di situs web kami."
+    },
+    {
+      "question": "Bisakah saya mengembalikan suatu produk jika saya berubah pikiran?",
+      "answer": "Ya, Anda dapat mengembalikan suatu produk jika Anda berubah pikiran.Harap pastikan produk dalam kondisi dan kemasan aslinya, dan lihat kebijakan pengembalian kami untuk instruksi."
+    },
+    {
+      "question": "Apakah Anda menawarkan dukungan obrolan langsung?",
+      "answer": "Ya, kami menawarkan dukungan obrolan langsung di situs web kami selama jam kerja kami.Cari ikon obrolan di sudut kanan bawah untuk memulai obrolan dengan tim dukungan pelanggan kami."
+    },
+    {
+      "question": "Bisakah saya memesan produk sebagai hadiah?",
+      "answer": "Ya, Anda dapat memesan produk sebagai hadiah dan mengirimkannya langsung ke penerima.Selama proses checkout, Anda dapat memasukkan alamat pengiriman penerima."
+    },
+    {
+      "question": "Apa yang harus saya lakukan jika kode diskon saya tidak berfungsi?",
+      "answer": "Jika kode diskon Anda tidak berfungsi, harap periksa kembali syarat dan ketentuan yang terkait dengan kode.Jika masalah tetap ada, hubungi tim dukungan pelanggan kami untuk mendapatkan bantuan."
+    },
+    {
+      "question": "Bisakah saya mengembalikan produk jika itu adalah item penjualan akhir?",
+      "answer": "Item penjualan akhir biasanya tidak dapat dikembalikan dan tidak dapat dikembalikan.Harap tinjau deskripsi produk atau hubungi tim dukungan pelanggan kami untuk mengonfirmasi kelayakan pengembalian untuk item tertentu."
+    },
+    {
+      "question": "Apakah Anda menawarkan layanan instalasi untuk produk Anda?",
+      "answer": "Layanan instalasi tersedia untuk produk tertentu.Silakan periksa deskripsi produk atau hubungi tim dukungan pelanggan kami untuk informasi lebih lanjut dan untuk meminta layanan instalasi."
+    },
+    {
+      "question": "Bisakah saya memesan produk yang dihentikan?",
+      "answer": "Produk yang dihentikan tidak lagi tersedia untuk dibeli.Kami merekomendasikan menjelajahi produk alternatif di situs web kami."
+    },
+    {
+      "question": "Bisakah saya mengembalikan produk tanpa tanda terima?",
+      "answer": "Tanda terima atau bukti pembelian biasanya diperlukan untuk pengembalian.Silakan merujuk ke kebijakan pengembalian kami atau hubungi tim dukungan pelanggan kami untuk mendapatkan bantuan."
+    },
+    {
+      "question": "Bisakah saya memesan produk untuk pengiriman ke negara yang berbeda?",
+      "answer": "Ya, kami menawarkan pengiriman internasional ke negara -negara tertentu.Harap tinjau tujuan pengiriman yang tersedia selama checkout atau hubungi dukungan pelanggan kami untuk mendapatkan bantuan."
+    },
+    {
+      "question": "Bisakah saya menambahkan pesan hadiah ke pesanan saya?",
+      "answer": "Ya, Anda dapat menambahkan pesan hadiah selama proses checkout.Biasanya ada bagian di mana Anda dapat memasukkan pesan yang dipersonalisasi."
+    },
+    {
+      "question": "Bisakah saya meminta demonstrasi produk sebelum melakukan pembelian?",
+      "answer": "Kami saat ini tidak menawarkan demonstrasi produk sebelum dibeli.Namun, Anda dapat menemukan deskripsi produk terperinci, spesifikasi, dan ulasan pelanggan di situs web kami."
+    },
+    {
+      "question": "Dapatkah saya memesan produk yang terdaftar sebagai 'segera hadir'?",
+      "answer": "Produk yang terdaftar sebagai 'segera hadir' tidak tersedia untuk pembelian segera.Silakan mendaftar untuk pemberitahuan untuk diinformasikan ketika produk tersedia."
+    },
+    {
+      "question": "Bisakah saya meminta faktur untuk pesanan saya?",
+      "answer": "Ya, faktur biasanya disertakan dengan pesanan Anda.Jika Anda memerlukan faktur terpisah, silakan hubungi tim dukungan pelanggan kami dengan detail pesanan Anda."
+    },
+    {
+      "question": "Dapatkah saya memesan produk yang diberi label sebagai 'edisi terbatas'?",
+      "answer": "Produk 'Edisi Terbatas' mungkin memiliki ketersediaan terbatas.Kami sarankan melakukan pemesanan sesegera mungkin untuk mengamankan barang Anda."
+    },
+    {
+      "question": "Dapatkah saya mengembalikan produk jika saya tidak lagi memiliki kemasan asli?",
+      "answer": "Saat mengembalikan produk dalam kemasan aslinya lebih disukai, Anda masih dapat memulai pengembalian tanpa itu.Hubungi Tim Dukungan Pelanggan kami untuk bimbingan dalam kasus -kasus seperti itu."
+    },
+    {
+      "question": "Dapatkah saya meminta produk yang saat ini kehabisan stok untuk dicadangkan untuk saya?",
+      "answer": "Kami tidak menawarkan reservasi untuk produk out-of-stock.Namun, Anda dapat mendaftar untuk pemberitahuan produk untuk diberitahu ketika tersedia lagi."
+    },
+    {
+      "question": "Dapatkah saya memesan produk yang terdaftar sebagai 'pre-order' dengan item in-stock lainnya?",
+      "answer": "Ya, Anda dapat melakukan pemesanan dengan campuran item pre-order dan in-stock.Namun, harap dicatat bahwa seluruh pesanan akan dikirim setelah semua item tersedia."
+    },
+    {
+      "question": "Bisakah saya mengembalikan produk jika rusak selama pengiriman?",
+      "answer": "Jika produk Anda rusak selama pengiriman, silakan hubungi tim dukungan pelanggan kami segera.Kami akan memandu Anda melalui proses pengembalian dan penggantian."
+    },
+    {
+      "question": "Dapatkah saya meminta produk yang kehabisan stok untuk diisi ulang?",
+      "answer": "Kami berusaha untuk mengisi kembali produk -produk populer jika memungkinkan.Silakan mendaftar untuk pemberitahuan produk untuk diinformasikan ketika item tersedia lagi."
+    },
+    {
+      "question": "Dapatkah saya memesan produk jika terdaftar sebagai 'dipesan kembali'?",
+      "answer": "Produk yang terdaftar sebagai 'backordered' untuk sementara kehabisan stok tetapi masih dapat dipesan.Pesanan Anda akan dipenuhi setelah produk diisi ulang."
+    },
+    {
+      "question": "Dapatkah saya mengembalikan produk jika dibeli selama penjualan atau dengan diskon?",
+      "answer": "Ya, Anda dapat mengembalikan produk yang dibeli selama penjualan atau dengan diskon.Pengembalian uang akan diproses berdasarkan jumlah yang dibayarkan setelah diskon."
+    },
+    {
+      "question": "Dapatkah saya meminta perbaikan atau penggantian produk jika rusak?",
+      "answer": "Jika Anda menerima produk yang rusak, silakan hubungi tim dukungan pelanggan kami segera.Kami akan membantu Anda dengan langkah -langkah yang diperlukan untuk perbaikan atau penggantian."
+    },
+    {
+      "question": "Dapatkah saya memesan produk jika terdaftar sebagai 'kehabisan stok' tetapi tersedia untuk pre-order?",
+      "answer": "Jika suatu produk tersedia untuk pre-order, Anda dapat melakukan pemesanan untuk mengamankan barang Anda.Produk akan dikirim setelah tersedia."
+    },
+    {
+      "question": "Dapatkah saya mengembalikan produk jika dibeli sebagai hadiah?",
+      "answer": "Ya, Anda dapat mengembalikan produk yang dibeli sebagai hadiah.Namun, pengembalian uang biasanya akan dikeluarkan untuk metode pembayaran asli yang digunakan untuk pembelian."
+    },
+    {
+      "question": "Dapatkah saya meminta produk jika terdaftar sebagai 'dihentikan'?",
+      "answer": "Sayangnya, jika suatu produk terdaftar sebagai 'dihentikan,' itu tidak lagi tersedia untuk dibeli.Kami merekomendasikan menjelajahi produk alternatif di situs web kami."
+    },
+    {
+      "question": "Dapatkah saya memesan produk jika terdaftar sebagai 'terjual habis'?",
+      "answer": "Jika suatu produk terdaftar sebagai 'terjual habis,' saat ini tidak tersedia untuk dibeli.Silakan periksa kembali nanti atau daftar pemberitahuan saat tersedia lagi."
+    },
+    {
+      "question": "Dapatkah saya mengembalikan produk jika dibeli dengan kartu hadiah?",
+      "answer": "Ya, Anda dapat mengembalikan produk yang dibeli dengan kartu hadiah.Pengembalian uang akan dikeluarkan dalam bentuk kredit toko atau kartu hadiah baru."
+    },
+    {
+      "question": "Dapatkah saya meminta produk jika saat ini tidak tersedia dalam ukuran saya?",
+      "answer": "Jika suatu produk tidak tersedia dalam ukuran Anda, itu mungkin sementara kehabisan stok.Silakan periksa kembali nanti atau daftar untuk pemberitahuan ukuran."
+    },
+    {
+      "question": "Dapatkah saya memesan produk jika terdaftar sebagai 'segera hadir' tetapi tersedia untuk pre-order?",
+      "answer": "Jika suatu produk terdaftar sebagai 'segera hadir' dan tersedia untuk pre-order, Anda dapat melakukan pemesanan untuk mengamankan barang Anda sebelum tersedia."
+    },
+    {
+      "question": "Dapatkah saya mengembalikan produk jika dibeli dengan kode diskon?",
+      "answer": "Ya, Anda dapat mengembalikan produk yang dibeli dengan kode diskon.Pengembalian uang akan diproses berdasarkan jumlah yang dibayarkan setelah diskon."
+    },
+    {
+      "question": "Bisakah saya meminta pesanan khusus atau produk yang dipersonalisasi?",
+      "answer": "Kami saat ini tidak menawarkan pesanan khusus atau produk yang dipersonalisasi.Silakan jelajahi produk yang tersedia di situs web kami."
+    },
+    {
+      "question": "Dapatkah saya memesan produk jika terdaftar sebagai 'sementara tidak tersedia'?",
+      "answer": "Jika suatu produk terdaftar sebagai 'sementara tidak tersedia,' itu kehabisan stok tetapi dapat diisi ulang di masa depan.Silakan periksa kembali nanti atau daftar pemberitahuan."
+    },
+    {
+      "question": "Dapatkah saya mengembalikan produk jika rusak karena penggunaan yang tidak tepat?",
+      "answer": "Kebijakan pengembalian kami umumnya mencakup produk yang rusak atau rusak pada saat kedatangan.Kerusakan karena penggunaan yang tidak tepat mungkin tidak memenuhi syarat untuk pengembalian.Silakan hubungi tim dukungan pelanggan kami untuk mendapatkan bantuan."
+    },
+    {
+      "question": "Dapatkah saya meminta produk jika terdaftar sebagai 'segera hadir' tetapi tidak tersedia untuk pre-order?",
+      "answer": "Jika suatu produk terdaftar sebagai 'segera hadir' tetapi tidak tersedia untuk pre-order, Anda harus menunggu sampai secara resmi dirilis dan tersedia untuk dibeli."
+    },
+    {
+      "question": "Dapatkah saya memesan produk jika terdaftar sebagai 'ditahan'?",
+      "answer": "Jika suatu produk terdaftar sebagai 'ditahan,' untuk sementara tidak tersedia untuk dibeli.Silakan periksa kembali nanti atau daftar pemberitahuan saat tersedia."
+    },
+    {
+      "question": "Dapatkah saya mengembalikan produk jika saya tidak lagi memiliki kwitansi asli?",
+      "answer": "Sementara tanda terima lebih disukai untuk pengembalian, kami mungkin dapat membantu Anda tanpanya.Silakan hubungi tim dukungan pelanggan kami untuk panduan lebih lanjut."
+    },
+    {
+      "question": "Dapatkah saya meminta produk yang terdaftar sebagai 'edisi terbatas' untuk diisi ulang?",
+      "answer": "Setelah produk edisi terbatas terjual habis, itu mungkin tidak diisi ulang.Item edisi terbatas hanya tersedia untuk waktu terbatas, jadi kami sarankan untuk membelinya saat tersedia."
+    },
+    {
+      "question": "Dapatkah saya memesan produk jika terdaftar sebagai 'dihentikan' tetapi masih terlihat di situs web?",
+      "answer": "Jika suatu produk terdaftar sebagai 'dihentikan' tetapi masih terlihat di situs web, itu mungkin kesalahan.Silakan hubungi tim dukungan pelanggan kami untuk klarifikasi."
+    },
+    {
+      "question": "Dapatkah saya mengembalikan produk jika itu adalah izin atau barang penjualan akhir?",
+      "answer": "Barang-barang penjualan atau penjualan akhir biasanya tidak dapat dikembalikan dan tidak dapat dikembalikan.Harap tinjau deskripsi produk atau hubungi tim dukungan pelanggan kami untuk informasi lebih lanjut."
+    },
+    {
+      "question": "Dapatkah saya meminta produk jika tidak terdaftar di situs web Anda?",
+      "answer": "Jika suatu produk tidak terdaftar di situs web kami, itu mungkin tidak tersedia untuk dibeli.Kami merekomendasikan menjelajahi produk yang tersedia atau menghubungi tim dukungan pelanggan kami untuk bantuan lebih lanjut."
+    },
+    {
+      "question": "Dapatkah saya memesan produk jika terdaftar sebagai 'kehabisan stok' tetapi tersedia untuk backorder?",
+      "answer": "Jika suatu produk terdaftar sebagai 'kehabisan stok' tetapi tersedia untuk backorder, Anda dapat melakukan pemesanan untuk mengamankan barang Anda.Produk akan dikirim setelah tersedia."
+    },
+    {
+      "question": "Dapatkah saya mengembalikan produk jika dibeli sebagai bagian dari bundel atau set?",
+      "answer": "Jika suatu produk dibeli sebagai bagian dari bundel atau set, kebijakan pengembalian dapat bervariasi.Silakan merujuk ke Syarat dan Ketentuan tertentu atau hubungi Tim Dukungan Pelanggan kami untuk panduan lebih lanjut."
+    },
+    {
+      "question": "Dapatkah saya meminta produk yang terdaftar sebagai 'kehabisan stok' untuk diisi ulang?",
+      "answer": "Kami bertujuan untuk mengisi kembali produk -produk populer jika memungkinkan.Silakan mendaftar untuk pemberitahuan produk untuk diberitahu ketika item tersedia lagi."
+    },
+    {
+      "question": "Dapatkah saya memesan produk jika terdaftar sebagai 'segera hadir' dan tersedia untuk pre-order?",
+      "answer": "Jika suatu produk terdaftar sebagai 'segera hadir' dan tersedia untuk pre-order, Anda dapat melakukan pemesanan untuk mengamankan barang Anda sebelum tersedia."
+    },
+    {
+      "question": "Dapatkah saya mengembalikan produk jika rusak karena salah penanganan selama pengiriman?",
+      "answer": "Jika produk Anda rusak karena salah penanganan selama pengiriman, silakan hubungi tim dukungan pelanggan kami segera.Kami akan membantu Anda dengan langkah -langkah yang diperlukan untuk pengembalian dan penggantian."
+    },
+    {
+      "question": "Dapatkah saya meminta produk yang terdaftar sebagai 'kehabisan stok' untuk disediakan untuk saya?",
+      "answer": "Kami tidak menawarkan reservasi untuk produk out-of-stock.Namun, Anda dapat mendaftar untuk pemberitahuan produk untuk diberitahu ketika item tersedia lagi."
+    },
+    {
+      "question": "Dapatkah saya memesan produk jika terdaftar sebagai 'pre-order' tetapi tersedia untuk backorder?",
+      "answer": "Jika suatu produk terdaftar sebagai 'pre-order' dan tersedia untuk backorder, Anda dapat melakukan pemesanan untuk mengamankan barang Anda.Produk akan dikirim setelah tersedia."
+    },
+    {
+      "question": "Dapatkah saya mengembalikan produk jika dibeli dengan kredit toko?",
+      "answer": "Ya, Anda dapat mengembalikan produk yang dibeli dengan kredit toko.Pengembalian uang akan dikeluarkan dalam bentuk kredit toko, yang dapat Anda gunakan untuk pembelian di masa mendatang."
+    },
+    {
+      "question": "Dapatkah saya meminta produk yang saat ini kehabisan stok untuk diisi ulang?",
+      "answer": "Kami berusaha untuk mengisi kembali produk -produk populer jika memungkinkan.Silakan mendaftar untuk pemberitahuan produk untuk diinformasikan ketika item tersedia lagi."
+    },
+    {
+      "question": "Dapatkah saya memesan produk jika terdaftar sebagai 'terjual habis' tetapi tersedia untuk pre-order?",
+      "answer": "Jika suatu produk terdaftar sebagai 'terjual habis' tetapi tersedia untuk pre-order, Anda dapat melakukan pemesanan untuk mengamankan barang Anda.Produk akan dikirim setelah tersedia."
+    },
+    {
+      "question": "Dapatkah saya mengembalikan produk jika dibeli dengan kartu hadiah promosi?",
+      "answer": "Ya, Anda dapat mengembalikan produk yang dibeli dengan kartu hadiah promosi.Pengembalian uang akan dikeluarkan dalam bentuk kredit toko atau kartu hadiah baru."
+    },
+    {
+      "question": "Dapatkah saya meminta produk jika saat ini tidak tersedia dalam warna pilihan saya?",
+      "answer": "Jika suatu produk tidak tersedia dalam warna pilihan Anda, itu mungkin sementara kehabisan stok.Silakan periksa kembali nanti atau daftar pemberitahuan warna."
+    },
+    {
+      "question": "Dapatkah saya memesan produk jika terdaftar sebagai 'segera hadir' dan tidak tersedia untuk pre-order?",
+      "answer": "Jika suatu produk terdaftar sebagai 'segera hadir' tetapi tidak tersedia untuk pre-order, Anda harus menunggu sampai secara resmi dirilis dan tersedia untuk dibeli."
+    },
+    {
+      "question": "Dapatkah saya mengembalikan produk jika dibeli selama acara promosi?",
+      "answer": "Ya, Anda dapat mengembalikan produk yang dibeli selama acara promosi.Pengembalian uang akan diproses berdasarkan jumlah yang dibayarkan setelah diskon yang berlaku."
+    },
+    {
+      "question": "Apa saja produk yang tersedia di toko ini?",
+      "answer": "Kami memiliki berbagai produk, termasuk elektronik, fashion, dan kebutuhan rumah tangga. Silakan cek katalog kami untuk melihat semua pilihan."
+    },
+    {
+      "question": "Apakah produk ini masih tersedia?",
+      "answer": "Ya, produk ini masih tersedia. Anda dapat langsung menambahkannya ke keranjang belanja."
+    },
+    {
+      "question": "Bagaimana cara melakukan pembelian di Tokopedia?",
+      "answer": "Untuk melakukan pembelian, silakan pilih produk yang Anda inginkan, klik 'Beli Sekarang', dan ikuti langkah-langkah untuk menyelesaikan pembayaran."
+    },
+    {
+      "question": "Apakah saya bisa membatalkan pesanan?",
+      "answer": "Ya, Anda dapat membatalkan pesanan dalam waktu 1 jam setelah melakukan pemesanan. Silakan kunjungi halaman 'Pesanan Saya' untuk membatalkan."
+    },
+    {
+      "question": "Berapa lama waktu pengiriman untuk pesanan saya?",
+      "answer": "Waktu pengiriman tergantung pada lokasi Anda dan metode pengiriman yang dipilih. Umumnya, pengiriman memakan waktu antara 1-5 hari kerja."
+    },
+    {
+      "question": "Bagaimana cara mengembalikan produk yang saya beli?",
+      "answer": "Anda dapat mengajukan permohonan pengembalian melalui halaman 'Pesanan Saya'. Pastikan produk dalam kondisi baik dan sesuai dengan kebijakan pengembalian kami."
+    },
+    {
+      "question": "Metode pembayaran apa saja yang diterima?",
+      "answer": "Kami menerima berbagai metode pembayaran, termasuk transfer bank, kartu kredit, dan e-wallet seperti OVO dan GoPay."
+    },
+    {
+      "question": "Apakah ada promo atau diskon saat ini?",
+      "answer": "Ya, saat ini kami memiliki promo diskon 20% untuk produk tertentu. Silakan cek halaman promo untuk informasi lebih lanjut."
+    },
+    {
+      "question": "Bagaimana cara mengubah informasi akun saya",
+      "answer": "Anda dapat mengubah informasi akun Anda dengan masuk ke halaman 'Akun Saya' dan memilih opsi 'Edit Profil'."
+    },
+    {
+      "question": "Saya mengalami masalah dengan transaksi saya, apa yang harus saya lakukan?",
+      "answer": "Jika Anda mengalami masalah, silakan hubungi Customer Service kami melalui fitur chat atau email untuk mendapatkan bantuan lebih lanjut."
+    },
+    {
+      "question": "Bagaimana cara belanja di Tokopedia?",
+      "answer": "Berikut cara belanja di Tokopedia:\n1. Tentukan produk yang ingin kamu beli, selanjutnya klik + keranjang atau beli langsung.\n2. Kemudian klik cek keranjang.\n3. Selanjutnya pilih beli untuk melanjutkan proses belanja.\n4. Selanjutnya klik pilih pembayaran.\n5. Pilih metode pembayaran, kemudian klik bayar. Pastikan kamu membayar sebelum batas waktu yang diberikan habis, agar tidak terjadi pembatalan pesanan.\nCatatan: Kamu bisa menambahkan maksimal 50 produk atau 30 toko ke dalam keranjang."
+    },
+    {
+      "question": "Cara menghapus produk di keranjang belanja?",
+      "answer": "Silakan ikuti beberapa langkah ini:\n1. Untuk menghapus produk di keranjang belanja, ceklis produk yang mau kamu hapus lalu klik hapus.\n2. Akan muncul halaman konfirmasi, klik hapus."
+    },
+    {
+      "question": "Bagaimana cara mencari produk di Tokopedia?",
+      "answer": "Kamu dapat memulainya dengan klik menu paling banyak dicari, kategori, ataupun kolom search. Kamu juga dapat mengikuti panduan cari produk sesuai dengan gadget yang kamu gunakan.\n\n1. Paling banyak dicari:\nDi menu paling banyak dicari, kamu dapat menemukan produk-produk yang sedang trend/populer atau yang banyak dicari oleh pengguna Tokopedia. Berikut panduannya: pada homepage Tokopedia klik lihat semua paling banyak dicari.\n\n2. Kategori:\nMencari produk yang diinginkan jadi semakin mudah melalui menu kategori. Berikut panduannya: Pada homepage Tokopedia, klik kategori, lalu pilih kategori produk yang kamu inginkan.\n\n3. Search:\nCukup masukkan nama produk yang kamu inginkan pada kolom search, maka produk tersebut akan muncul pada hasil pencarian. Berikut panduannya: Masukkan nama produk pada kolom search, lalu klik hasil produk yang muncul pada pencarian."
+    },
+    {
+      "question": "Mengapa beberapa produk dilarang untuk diakses?",
+      "answer": "Tokopedia ingin menciptakan sarana jual-beli yang aman untuk semua umur."
+    },
+    {
+      "question": "Konten apa saja yang membutuhkan konfirmasi umur?",
+      "answer": "Produk dewasa, seperti alat pengaman (kondom), obat-obatan, alat bantu untuk berhubungan intim, dan vaporizer."
+    },
+    {
+      "question": "Kenapa saya diminta verifikasi tanggal lahir?",
+      "answer": "Tokopedia ingin memastikan kamu memasukkan tanggal lahir yang sebenar-benarnya. Sehingga kami bisa memberikan rekomendasi produk yang sesuai usia masing-masing pengguna."
+    },
+    {
+      "question": "Apakah saya akan selalu ditanya mengenai tanggal lahir setiap kali membuka Tokopedia?",
+      "answer": "Tidak. Verifikasi tanggal lahir hanya akan ditanyakan sekali saja meskipun kamu nantinya menggunakan perangkat yang berbeda dalam mengakses Tokopedia."
+    },
+    {
+      "question": "Saya sudah melakukan verifikasi tanggal lahir dengan usia di bawah 21 tahun, tapi mengapa produk tidak muncul di hasil pencarian?",
+      "answer": "Kemungkinan besar, kata kunci/produk yang kamu cari mengandung konten dewasa yang hanya bisa diakses oleh pengguna dengan usia 21+."
+    },
+    {
+      "question": "Saya sudah melakukan verifikasi tanggal lahir dengan usia di bawah 21 tahun, tapi mengapa saya diarahkan ke Homepage Tokopedia setelah mengklik tautan tersebut?",
+      "answer": "Kemungkinan besar, tautan tersebut mengandung konten dewasa yang hanya bisa diakses oleh pengguna dengan usia 21+."
+    },
+    {
+      "question": "Saya sudah melakukan verifikasi tanggal lahir dengan umur di bawah 21 tahun, tapi mengapa menu kategori produk dewasa/vaporizer tidak muncul di halaman navigasi kategori?",
+      "answer": "Kemungkinan besar karena kategori/produk yang kamu rujuk mengandung konten dewasa yang hanya bisa diakses oleh pengguna dengan usia 21+."
+    },
+    {
+      "question": "Mengapa saya tidak bisa mengubah tanggal lahir di halaman Profil?",
+      "answer": "Karena sebelumnya kamu pernah melakukan verifikasi tanggal lahir yang sudah berhasil diverifikasi dan tidak dapat diubah kembali."
+    },
+    {
+      "question": "Mengapa saya tidak bisa mengakses halaman kategori/produk/mendapatkan hasil pencarian kata kunci tertentu tapi mendapatkan notifikasi peringatan konten dewasa?",
+      "answer": "Konten dewasa hanya bisa diakses oleh pengguna yang telah melakukan verifikasi tanggal lahir dan diketahui berusia 21 tahun atas."
+    },
+    {
+      "question": "Saya melakukan kesalahan ketika verifikasi tanggal lahir, bagaimana cara untuk mengubah tanggal lahir tersebut?",
+      "answer": "Tanggal lahir hanya dapat diubah satu kali ketika kamu melakukan verifikasi."
+    },
+    {
+      "question": "Tips belanja aman dan nyaman di Tokopedia?",
+      "answer": "Lakukan tips berbelanja di Tokopedia di bawah ini:\n1. Perhatikan nama, deskripsi, dan gambar produk yang kamu inginkan secara detail. Lihat reputasi toko (rating & cancel rate), review, dan diskusi produk.\n2. Pastikan semua komunikasi dilakukan melalui platform Tokopedia, abaikan jika terdapat ajakan untuk komunikasi di luar platform Tokopedia.\n3. Pastikan tidak mentransfer langsung dana ke penjual. Lakukan pembayaran hanya ke nomor rekening atas nama PT TOKOPEDIA.\n4. Jangan lakukan Konfirmasi Penerimaan sebelum pesanan sampai.\n5. Segera cek barang yang kamu terima apakah sudah sesuai dengan kriteria yang kamu beli."
+    },
+    {
+      "question": "Cara memberikan reputasi ke penjual?",
+      "answer": "Setelah melakukan konfirmasi penerimaan, kamu akan diarahkan ke halaman ulasan. Di halaman ini kamu dapat memberikan ulasan atas pelayanan penjual serta kualitas produk yang diterima. Kamu juga dapat melampirkan foto produk yang diterima dengan mengklik upload gambar produk. Tentunya penilaian kamu ini akan menentukan reputasi dari toko tersebut. Untuk itu pastikan kamu mengisi ulasan dengan bijaksana."
+    },
+    {
+      "question": "Bagaimana cara konfirmasi penerimaan produk?",
+      "answer": "Apabila pesanan kamu sudah sampai, pastikan kamu melakukan konfirmasi penerimaan untuk menyelesaikan transaksi pembelian. Apabila dalam waktu 2x24 jam kamu tidak melakukan konfirmasi penerimaan, transaksi akan dianggap selesai oleh sistem dan pembayaran akan diteruskan ke saldo Tokopedia penjual.\nBerikut step untuk melakukan konfirmasi penerimaan:\n1. Pilih menu daftar transaksi - belanja\n2. Fitur status pesanan tiba\n3. Klik selesai pada pesanan yang ingin kamu konfirmasi"
+    },
+    {
+      "question": "Bagaimana cara mengisi ulasan produk?",
+      "answer": "1. Klik ikon garis tiga di kanan atas\n2. Klik ulasan\n3. Pilih produk yang akan diulas\n4. Klik kasih foto atau video barang"
+    },
+    {
+      "question": "Pesanan belum dikirim, masih dalam batas waktu pengiriman",
+      "answer": "1. Silakan menunggu hingga estimasi waktu yang ditentukan.\n2. Hubungi Penjual untuk menanyakan proses pesanan dan estimasi waktu input resi.\n3. Jika kamu ingin batalkan pesanan, silakan ajukan pembatalan dengan persetujuan Penjual."
+    },
+    {
+      "question": "Kurir belum pick up",
+      "answer": "Minta penjual untuk ubah kurir. Catatan: Apabila transaksi menggunakan bebas ongkir, maka bebas ongkir akan hangus."
+    },
+    {
+      "question": "Pesanan belum dikirim, sudah melewati batas waktu pengiriman",
+      "answer": "Pesanan akan batal otomatis dan dana akan dikembalikan sesuai alur refund."
+    },
+    {
+      "question": "Cara mengajukan batal pesanan sebelum diproses penjual?",
+      "answer": "Jika kamu memiliki transaksi yang statusnya menunggu konfirmasi dan belum melewati batas waktu 1 jam setelah pembayaran terverifikasi (proses pesanan), silakan klik tombol batalkan pesanan."
+    },
+    {
+      "question": "Bagaimana cara menghubungi penjual?",
+      "answer": "1. Kirim Pesan Berikut panduan menggunakan fitur Kirim Pesan:\n2. Klik ikon chat pada bagian bawah halaman toko.\n3. Masukkan subjek dan isi pesan. Klik ikon kirim\n4. Kamu juga dapat mengirim pesan ke penjual melalui halaman rincian produk. Berikut panduannya:\n1. Klik ikon chat di bagian bawah halaman rincian produk.\n2. Masukkan subjek dan isi pesan. Klik ikon kirim"
+    },
+    {
+      "question": "Diskusi produk",
+      "answer": "Melalui Diskusi Produk kamu juga dapat melihat pertanyaan-pertanyaan dari pembeli lainnya. Berikut ini panduan bertanya melalui diskusi produk:\n1. Buka halaman produk yang ingin kamu beli, kemudian klik lihat semua pada bagian diskusi paling membantu.\n2. Klik ikon tambah\n3. Masukkan pertanyaan kamu pada kolom yang tersedia, kemudian klik kirim."
+    },
+    {
+      "question": "Tidak dapat cek status pemesanan",
+      "answer": "Untuk mengetahui status pesanan kamu dapat cek di halaman Daftar Transaksi dengan cara berikut ini:\n1. Buka halaman transaksi di pojok kanan bawah.\n2. Pada halaman daftar transaksi kamu dapat cek status terakhir dari pesanan kamu. Apabila barang sudah dikirim oleh penjual, kamu dapat klik lacak."
+    },
+    {
+      "question": "Tidak dapat melacak resi pengiriman di Tokopedia",
+      "answer": "Kamu jangan khawatir apabila kamu tidak dapat melacak resi pengiriman di aplikasi Tokopedia, karena kamu dapat cek resi manual di cekresi.com.\nApabila transaksi kamu masih dalam pengiriman menuju alamat tujuan, mohon menunggu terlebih dahulu proses pengirimannya sesuai dengan estimasi waktu proses pengantaran yang berlangsung.\nBerikut penyebab resi pengiriman kamu tidak dapat dilacak:\n1. Kurir pengiriman belum memperbarui status.\n2. No. resi yang diinput tidak sesuai atau bukan kurir yang bekerjasama dengan Tokopedia.\n3. Situs kurir pengiriman sedang berkendala.\n4. Kesalahan input tanggal pengiriman\n5. Proses update antara Tokopedia dengan pihak kurir membutuhkan waktu maksimal 1x24 jam.\n6. Pesanan gagal dilakukan pick up dalam waktu 3x24 jam."
+    },
+    {
+      "question": "Bagaimana cara melihat daftar transaksi?",
+      "answer": "Kamu bisa melakukan pengecekan seluruh transaksi pembelian dalam 5 tahun terakhir, dengan mengikuti cara:\n1. Klik ikon menu akun.\n2. Pada halaman akun saya pergi ke bagian daftar transaksi kemudian kamu dapat memilih ikon dalam proses atau semua transaksi untuk masuk ke dalam halaman daftar transaksi."
+    },
+    {
+      "question": "Bagaimana cara mengecek status pemesanan?",
+      "answer": "Kamu bisa cek status pemesanan melalui daftar transaksi dengan cara berikut ini:\n1. Klik ikon menu akun.\n2. Pada halaman akun saya pergi ke bagian daftar transaksi.\n3. Jika kamu memilih ikon dalam proses, semua status transaksi yang sedang dalam proses akan muncul di dalam halaman daftar transaksi.\n4. Jika kamu memilih ikon semua transaksi, semua status transaksi akan muncul di dalam halaman daftar transaksi.\n5. Jika kamu memilih e-tiket & e-voucher aktif, semua tiket dan voucher aktif akan muncul di dalam halaman daftar transaksi."
+    },
+    {
+      "question": "Bagaimana cara mengecek status pemesanan dalam periode tertentu?",
+      "answer": "Di halaman Daftar Transaksi, kamu dapat melakukan filter tanggal yang terdiri dari:\n- 30 hari terakhir.\n- 90 hari terakhir.\n- Pilih tanggal sendiri."
+    },
+    {
+      "question": "Bagaimana cara mengecek status pemesanan untuk kategori tertentu?",
+      "answer": "Di halaman daftar transaksi, kamu dapat melakukan filter kategori yang terdiri dari:\n- Belanja\n- Top-up & Tagihan\n- Travel & Entertainment\n- Keuangan\n- Halal Corner\n- Langsung Laku\n- Tokopedia Print"
+    },
+    {
+      "question": "Bagaimana cara mengecek status pemesanan untuk status transaksi tertentu?",
+      "answer": "Di halaman daftar transaksi, kamu dapat melakukan filter status yang terdiri dari:\n1. Dalam proses\n2. Berhasil\n3. Tidak berhasil\n4. E-tiket & e-voucher aktif\n5. Untuk melihat status transaksi yang lebih detail, kamu dapat melihat pada ujung kanan atas pada kartu pesanan di halaman daftar transaksi."
+    },
+    {
+      "question": "Bagaimana cara melihat semua daftar transaksi saya tanpa filter?",
+      "answer": "Kamu dapat melakukan reset filter pada ikon x di samping filter tanggal."
+    },
+    {
+      "question": "Apakah saya dapat mencari sendiri status pesanan saya?",
+      "answer": "Ya, kamu dapat mencari sendiri pesanan kamu dengan menggunakan fitur search yang tersedia pada bagian atas halaman daftar transaksi."
+    },
+    {
+      "question": "Saya tidak sengaja melakukan konfirmasi penerimaan",
+      "answer": "Apabila kamu sudah terlanjur melakukan konfirmasi penerimaan padahal barang belum diterima, maka dana akan diteruskan ke penjual secara otomatis. Jangan khawatir, kamu dapat tindak lanjuti kendala kepada penjual dan pihak kurir dengan klik ajukan komplain di bawah."
+    },
+    {
+      "question": "Cara menanggapi perpanjang batas waktu proses pesanan?",
+      "answer": "Berikut cara menanggapi perpanjangan batas waktu proses pesanan:\n1. Buka halaman notifikasi dan pilih notifikasi terkait pesananmu butuh tambahan waktu\n2. Kamu akan diarahkan ke halaman transaksi berlangsung, lalu klik tanggapi pengajuan.\n3. Pada halaman detail pesanan klik tanggapi pengajuan.\n4. Kamu akan menerima pop up terkait kesediaan untuk memperpanjang waktu proses pesanan.\n\nCatatan:\n1. Apabila kamu bersedia memperpanjang waktu pesanan silakan klik perpanjang pesanan.\n2. Namun, apabila kamu menolak perpanjangan waktu klik batalkan pesanan. Pesanan kamu akan otomatis dibatalkan."
+    },
+    {
+      "question": "Pembeli ingin hubungi Penjual",
+      "answer": "Hubungi jika penjual belum merespon pesanan dalam waktu 1x24 jam pada hari kerja, maka pesanan akan dibatalkan otomatis."
+    },
+    {
+      "question": "Pembeli ingin ajukan pembatalan",
+      "answer": "Pesanan akan dibatalkan otomatis dan dana akan dikembalikan ke saldo refund, GoPay, atau sesuai metode pembayaran yang digunakan."
+    },
+    {
+      "question": "Penyebab transaksi dibatalkan otomatis",
+      "answer": "Transaksi dibatalkan otomatis oleh sistem dapat disebabkan beberapa hal, diantaranya:\n1. Stok produk tidak mencukupi atau kosong saat pembeli melakukan pembayaran.\n2. Penjual tidak merespon pesanan dalam waktu 1x24 jam.\n3. Melebihi batas waktu pembayaran setelah proses checkout.\n4. Kamu menggunakan lebih dari satu akun saat bertransaksi menggunakan promo atau voucher pada transaksi yang sama."
+    },
+    {
+      "question": "Produk yang diterima rusak atau tidak sesuai",
+      "answer": "Pastikan selalu cek kondisi dan jumlah pesanan yang kamu terima sebelum klik tombol 'Selesai.' Klaim komplain setelah konfirmasi penerimaan barang bukan tanggung jawab Tokopedia sesuai syarat & ketentuan Tokopedia poin C nomor 22-24.\n\nBerikut ketentuan apabila produk yang diterima rusak atau tidak sesuai:\n1. Kamu sudah menerima barang dan status pesanan 'Tiba.'\n2. Apabila barang yang diterima rusak atau tidak sesuai, kamu dapat ajukan komplain dalam waktu kurang dari 2x24 jam sejak Pesanan Tiba dengan mengikuti panduan berikut:\n  - Ajukan komplain produk rusak\n  - Ajukan komplain produk tidak sesuai\n3. Kamu sudah menerima barang dan status Pesanan 'Selesai.'\n4. Apabila barang yang diterima rusak atau tidak sesuai setelah status Pesanan 'Selesai' (>2x24 jam setelah Pesanan Tiba), silakan hubungi pihak Penjual melalui fitur Chat untuk kesepakatan solusi dan meminta alamat retur ke Penjual, serta lampirkan screenshot kesepakatan solusinya."
+    },
+    {
+      "question": "Promo Tokopedia yang sedang berlangsung",
+      "answer": "Yuk cari tahu berbagai promo terbaru di Tokopedia, mulai dari barang serba promo, diskon lebih dari 50%, flash sale, brand festival, promo spesial dari toko pilihan & official store, hingga kupon spesial. Belanja semakin untung dengan menggunakan promo di Tokopedia.\n\nBerikut cara mencarinya:\n1. Kunjungi halaman promo deals atau klik tokopedia.com/discovery/deals.\n2. Pilih promo yang ingin kamu gunakan pada halaman tersebut.\n3. Selain deals, kamu juga dapat cek promo lainnya di halaman ini: https://www.tokopedia.com/promo.\n4. Pastikan kamu sudah membaca dan memahami syarat dan ketentuan promo yang berlaku.\n5. Salin kode promo yang ingin kamu gunakan, lalu klik 'Beli Sekarang.'"
+    },
+    {
+      "question": "Apa penyebab adanya perbedaan berat barang?",
+      "answer": "Hal tersebut bisa terjadi karena adanya perbedaan bentuk packing dari paket atau karena perhitungan berat secara volumetrik. Lihat cara perhitungan berat paket pada tab cara menghitung berat paket."
+    },
+    {
+      "question": "Apa yang terjadi jika terdapat perbedaan berat barang?",
+      "answer": "Jika transaksi menggunakan kurir dengan sistem cashless seperti Sicepat, Anteraja, JNE, J&T, dan Lion Parcel, maka ongkos kirim akan disesuaikan berdasarkan berat paket yang baru dan akan dipotong otomatis dari saldo Tokopedia kamu saat transaksi selesai."
+    },
+    {
+      "question": "Bagaimana agar tidak terdapat selisih berat barang kembali?",
+      "answer": "Penjual diharapkan melakukan pengecekan produk dan merubah berat produknya dengan berat yang benar pada halaman pengaturan berat dan pengiriman."
+    },
+    {
+      "question": "Apabila terdapat perbedaan berat sebelum dan setelah pengiriman, apa yang harus saya lakukan?",
+      "answer": "Hal tersebut bisa terjadi karena adanya perbedaan bentuk packing paket. Namun, jika penjual memiliki bukti penimbangan, Penjual dapat mengajukan keberatan melalui Tokopedia Care yang akan dibandingkan dengan foto berat paket dari kurir. Harap perhatikan bahwa batas waktu klaim setiap kurir dapat berbeda."
+    },
+    {
+      "question": "Apa yang harus saya lakukan jika terdapat perbedaan berat dan dana sudah terpotong?",
+      "answer": "Penjual dapat mengajukan komplain melalui Tokopedia Care, dan laporan akan dibantu ke pihak kurir. Jika Penjual memiliki bukti penimbangan, sertakan lampirannya saat membuat komplain. Perhatikan batas waktu klaim setiap kurir yang mungkin berbeda."
+    },
+    {
+      "question": "Bagaimana cara mendapatkan kupon?",
+      "answer": "Kupon dapat diperoleh dengan cara:\n1. Meningkatkan level membership untuk mendapatkan keuntungan.\n2. Mengumpulkan stamp TokoMember dan menukarkannya dengan kupon.\n3. Menyelesaikan misi untuk mendapatkan hadiah kupon.\n4. Klaim kupon di halaman rewards."
+    },
+    {
+      "question": "Bagaimana cara menggunakan kupon untuk transaksi di Tokopedia?",
+      "answer": "Kupon dapat digunakan untuk transaksi dengan langkah berikut:\n1. Masukkan produk ke keranjang belanja.\n2. Klik 'makin hemat pakai promo.'\n3. Pilih kupon yang ingin digunakan dari daftar kupon.\n4. Kamu akan mendapatkan notifikasi jika penggunaan kupon berhasil."
+    },
+    {
+      "question": "Apakah saya dapat berbagi kupon dengan pengguna lain?",
+      "answer": "Pengguna tidak dapat mengirimkan kupon kepada pengguna lain karena kupon bersifat gratis dan memiliki kuota terbatas."
+    },
+    {
+      "question": "Berapa lama masa berlaku kupon yang saya miliki?",
+      "answer": "Setiap kupon memiliki masa aktif dan ketentuan berbeda-beda. Kamu dapat mengecek syarat dan ketentuan pada masing-masing kupon."
+    },
+    {
+      "question": "Kenapa salah satu kupon saya kemarin masih muncul di 'kupon saya' tapi sekarang sudah tidak ada?",
+      "answer": "Kupon yang sudah mencapai masa kadaluarsa akan hangus dan tidak tampil lagi di menu 'kupon saya.'"
+    },
+    {
+      "question": "Apakah kupon yang sudah saya tukar masih dapat dibatalkan?",
+      "answer": "Kupon yang sudah ditukarkan tidak dapat dibatalkan, dan hanya bisa kamu gunakan."
+    },
+    {
+      "question": "Apakah kupon yang tidak digunakan dapat diuangkan?",
+      "answer": "Kupon yang tidak digunakan atau sudah kadaluarsa tidak dapat diuangkan. Pengguna dilarang menjual atau menguangkan kupon yang sudah ditukarkan. Pelanggaran akan dikenakan sanksi oleh Tokopedia."
+    },
+    {
+      "question": "Apakah penggunaan kupon bisa digabungkan dengan kode promo Tokopedia?",
+      "answer": "Tidak bisa. Penggunaan kupon tidak dapat digabungkan dengan kode promo. Pengguna harus memilih salah satu yang ingin digunakan dalam satu transaksi."
+    }
+  ]
+}
