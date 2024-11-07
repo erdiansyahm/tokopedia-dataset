@@ -836,6 +836,301 @@
     {
       "question": "Apakah penggunaan kupon bisa digabungkan dengan kode promo Tokopedia?",
       "answer": "Tidak bisa. Penggunaan kupon tidak dapat digabungkan dengan kode promo. Pengguna harus memilih salah satu yang ingin digunakan dalam satu transaksi."
+    },
+    {
+      "question": "Operator paket data yang tersedia di Tokopedia",
+      "answer": "Saat ini Tokopedia semakin memudahkan kamu dalam bertransaksi digital, kamu bisa melakukan isi ulang paket data untuk berbagai operator. Berikut operator yang tersedia di Tokopedia saat ini, yaitu: 1. Smartfren 2. XL 3. Indosat (IM3 Ooredo & Mentari Ooredo) 4. Telkomsel (Kartu AS & simPATI) 5. TRI (3) 6. Hinet"
+    },
+    {
+      "question": "Cara membeli paket data melalui Tokopedia",
+      "answer": "Saat ini kamu dapat dengan mudah melakukan isi ulang Paket Data di Tokopedia. Berikut cara melakukan pembelian paket data di Tokopedia: 1. Buka aplikasi tokopedia kamu, lalu pilih menu top up dan tagihan kemudian klik Paket Data. Kamu juga dapat langsung mengakses www.tokopedia.com/paket-data/. 2. Setelah itu, isi nomor yang dituju serta nominal paket data yang kamu inginkan. Kamu dapat melihat nomor dan total harganya, lalu klik lanjut untuk memproses ke halaman pembayaran. 3. Pada halaman detail pesanan akan tertera nomor telepon tujuan serta nominal yang harus kamu bayarkan. Pastikan nomor telepon sudah sesuai, setelah itu klik bayar. 4. Setelah masuk ke halaman pembayaran, pilih metode pembayaran yang kamu inginkan. 5. Setelah itu, klik bayar untuk melakukan pembayaran."
+    },
+    {
+      "question": "Institusi pendidikan apa saja yang biayanya dapat dibayarkan melalui tokopedia?",
+      "answer": "Kamu dapat melihat daftarnya pada kolom ‘daftar institusi pendidikan’. Ketersediaan institusi pendidikan yang terdaftar dapat berubah sewaktu-waktu tanpa pemberitahuan."
+    },
+    {
+      "question": "Institusi pendidikan saya tidak ada di Tokopedia?",
+      "answer": "Kami selalu berusaha untuk melengkapi daftar institusi pendidikan yang biayanya dapat dibayarkan melalui tokopedia namun penambahan atau pengurangan institusi pendidikan tersebut dapat berubah sewaktu-waktu tanpa pemberitahuan."
+    },
+    {
+      "question": "Biaya pendidikan apa saja yang dapat dibayarkan di Tokopedia?",
+      "answer": "1. Semua biaya pendidikan yang resmi ditagihkan oleh administrasi institusi pendidikan kamu akan ditampilkan di daftar tagihan kamu. 2. Kamu juga dapat melihat rincian dari tagihanmu saat kamu melakukan pengecekan tagihan di tokopedia."
+    },
+    {
+      "question": "Mengapa tagihan saya tidak muncul atau tagihan saya tidak sesuai?",
+      "answer": "1. Mohon periksa kembali nomor mahasiswa/nomor tagihan kamu. 2. Apabila masih mengalami kendala, harap hubungi institusi pendidikan terkait tagihan kamu. Namun jika memang terjadi kesalahan input tagihan dari universitas, daftar tagihan yang kami tampilkan akan mengikuti. 3. Kamu sudah melakukan pembayaran."
+    },
+    {
+      "question": "Dimana saya mendapatkan nomor pembayaran?",
+      "answer": "Nomor pembayaran didapatkan dari universitas atau institusi pendidikan kamu, baik itu berupa nomor mahasiswa/nomor tagihan."
+    },
+    {
+      "question": "Saya sudah menyelesaikan pembayaran, tapi mengapa tagihan saya masih muncul?",
+      "answer": "Proses verifikasi membutuhkan waktu maksimal 1x24 jam. Bila setelah 1x24 jam tagihan kamu masih muncul, silakan klik di sini."
+    },
+    {
+      "question": "Mengapa saya tidak bisa bertransaksi 1 jam sebelum deadline?",
+      "answer": "Demi memastikan kelancaran pembayaran, kami sarankan kamu menyelesaikan pembayaran biaya pendidikan kamu lebih dari 1 jam sebelum tenggat waktu pembayaran dari Institusi Pendidikan terkait."
+    },
+    {
+      "question": "Mengapa transaksi saya gagal?",
+      "answer": "Kemungkinan terjadi gangguan koneksi saat kami meneruskan pembayaran kamu. Namun, tidak perlu khawatir uang yang kamu bayarkan akan di-refund ke Saldo Tokopedia kamu. Selanjutnya kamu bisa mencoba kembali untuk melakukan pembayaran biaya pendidikan setelah beberapa saat."
+    },
+    {
+      "question": "Apakah saya bisa membayar semua tagihan sekaligus?",
+      "answer": "Saat ini kamu hanya bisa memilih 1 tagihan untuk setiap kali pembayaran. Namun, tenang saja, kami sedang dalam tahap pengembangan untuk memudahkan kamu yang ingin membayar tagihannya sekaligus."
+    },
+    {
+      "question": "Bagaimana saya tahu produk apa yang membutuhkan resep?",
+      "answer": "Hanya obat yang masuk ke dalam jenis obat keras saja yang mewajibkan pembeli meng-upload resep. Ciri jenis obat keras memiliki label (K) berlogo merah di halaman detil produk."
+    },
+    {
+      "question": "Bagaimana saya memastikan transaksi yang saya lakukan telah berhasil?",
+      "answer": "Jika transaksi kamu berhasil, kamu akan mendapatkan invoice dari Tokopedia. Invoice tersebut merupakan bukti bayar yang sah atas transaksi dimaksud."
+    },
+    {
+      "question": "Belum menerima kode booking tiket KAI di Tokopedia",
+      "answer": "Untuk melihat kode booking tiket kereta di Tokopedia kamu dapat mengeceknya email dan sms yang dikirimkan serta membuka halaman daftar transaksi. Kamu juga dapat kirim ulang kode booking tiket kereta di Tokopedia yang belum diterima ke email kamu atau ke 4 email lain yang aktif dan bisa diakses."
+    },
+    {
+      "question": "Cara pesan tiket kereta api di Tokopedia",
+      "answer": [
+        "Untuk memesan tiket kereta api di Tokopedia kamu dapat mengikuti langkah-langkah berikut mulai dari pencarian tiket, mengisi data penumpang, memilih kursi, hingga melakukan pembayaran tiket di Tokopedia dan kemudian menikmati perjalanan kamu. Berikut cara pesan tiket kereta api di Tokopedia:",
+        "1. Buka halaman tiket kereta Tokopedia.",
+        "2. Apabila kamu hanya ingin mencari tiket sekali jalan, non-aktifkan kursor pulang pergi.",
+        "3. Apabila kamu ingin mencari tiket pulang-pergi, aktifkan kursor tersebut.",
+        "4. Isi data stasiun asal dan stasiun tujuan, tanggal keberangkatan dan/atau kepulangan, jumlah penumpang. Kemudian klik cari tiket.",
+        "5. Kamu bisa menyortir pilihan tiket sesuai dengan pilihan waktu pergi, pilihan kelas, pilihan kereta, dan pilihan harga. Selanjutnya klik pilih pada pilihanmu.",
+        "6. Isi data penumpang, kemudian klik pesan tiket.",
+        "7. Akan muncul pop up, pastikan data yang kamu masukan sudah benar dan sesuai dengan kartu identitas. Lalu, klik pesan tiket.",
+        "8. Pada halaman ringkasan pesanan klik pilih pembayaran.",
+        "9. Sistem akan melakukan pengecekan apakah calon penumpang sudah melakukan vaksin atau belum.",
+        "10. Jika calon penumpang sudah melakukan vaksin akan muncul pop up.",
+        "11. Selanjutnya lakukan pembayaran dengan metode pembayaran yang kamu pilih."
+      ]
+    },
+    {
+      "question": "Cara membatalkan pesanan tiket KAI",
+      "answer": [
+        "Tokopedia hanya berperan sebagai perantara dalam proses pemesanan tiket. Untuk pembatalan pemesanan Tiket KAI atau mengubah jadwal keberangkatan, kamu dapat menghubungi pihak stasiun kereta atau ke pihak KAI secara langsung.",
+        "Apabila kamu ingin melakukan pembatalan tiket Kereta Api, kamu dapat melakukannya melalui Loket yang ada di stasiun Kereta Api atau melalui aplikasi KAI Access.",
+        "Berikut cara membatalkan pesanan tiket KAI:",
+        "1. Loket: Datang langsung ke stasiun Kereta Api yang melayani pembatalan tiket Kereta Api dengan membawa identitas asli dan fotokopi identitas yang digunakan saat melakukan pemesanan tiket.",
+        "2. Aplikasi KAI Access: Pastikan kamu sudah memiliki aplikasi KAI Access pada smartphone kamu dan sudah menambahkan tiket yang kamu beli sebelumnya.",
+        "3. Pada menu Tiket pilih kode booking perjalanan kereta yang akan dibatalkan dan klik tombol Pembatalan."
+      ]
+    },
+    {
+      "question": "Saya masukkan data pemesanan tiket kereta api yang salah",
+      "answer": [
+        "1. Apabila transaksi tiket kereta api sudah berhasil namun terdapat kesalahan dalam pengisian data penumpang, maka kamu dapat langsung ke stasiun keberangkatan untuk melakukan perubahan data penumpang.",
+        "2. Apabila kamu masih mengalami kendala, silakan hubungi PT KAI di 021 121 dengan menginformasikan kesalahan datanya."
+      ]
+    },
+    {
+      "question": "Cara membeli pulsa melalui Tokopedia",
+      "answer": [
+        "Kini, pembelian pulsa dengan mudah dan praktis dapat dilakukan di Tokopedia. Simak caranya berikut ini.",
+        "1. Buka aplikasi Tokopedia lalu klik pulsa pada menu top up dan tagihan.",
+        "2. Isi nomor telepon dan nominal pulsa yang kamu inginkan, kemudian klik lanjut.",
+        "3. Setelah itu, kamu akan masuk ke halaman checkout.",
+        "4. Setelah masuk ke halaman pembayaran, kamu dapat memilih metode pembayaran yang kamu inginkan. Lalu klik bayar untuk melakukan pembayaran."
+      ]
+    },
+    {
+      "question": "Apa saja metode pembayaran yang dapat digunakan untuk pembelian pulsa?",
+      "answer": [
+        "Untuk memudahkan kamu dalam bertransaksi pembelian pulsa, Tokopedia menyediakan berbagai macam metode pembayaran yang dapat kamu gunakan, diantaranya ialah pembayaran dengan OVO, Kartu Kredit, BCA Klikpay, KlikBCA, Virtual Account BCA, Mandiri Clickpay, Mandiri e-Cash, BRImo, BRI Virtual Account, Alfagroup, Indomaret, dan Pos Indonesia."
+      ]
+    },
+    {
+      "question": "Tidak dapat melakukan pembelian pulsa",
+      "answer": [
+        "Ada beberapa kemungkinan kamu tidak dapat melakukan pembelian Pulsa, diantaranya sebagai berikut:",
+        "1. Nomor yang kamu masukkan salah atau sudah tidak aktif lagi.",
+        "2. Belum melakukan verifikasi nomor handphone pada akun Tokopedia.",
+        "3. Belum menyelesaikan pembelian transaksi digital sebelumnya.",
+        "4. Apabila kamu pengguna baru Tokopedia, kamu dapat melakukan transaksi digital 1 hari setelah kamu daftar."
+      ]
+    },
+    {
+      "question": "Syarat dan ketentuan pembayaran tagihan air PDAM di Tokopedia",
+      "answer": [
+        "Tokopedia selalu berusaha menghadirkan kemudahan yang dapat memberikan banyak manfaat bagi kamu, salah satunya adalah pembayaran tagihan air PDAM di Tokopedia.",
+        "1. Pastikan kamu sudah memiliki akun Tokopedia dan sudah melakukan verifikasi nomor handphone.",
+        "2. Pengguna akan dikenakan biaya administrasi oleh PDAM.",
+        "3. Biaya administrasi dikenakan per tagihan bulanan.",
+        "4. Pembayaran tagihan air PDAM yang dilakukan setelah tanggal jatuh tempo akan dikenakan denda.",
+        "5. Tokopedia tidak bertanggung jawab atas kesalahan pembayaran yang dikarenakan kesalahan input nomor pelanggan atau nomor meteran."
+      ]
+    },
+    {
+      "question": "Wilayah pembayaran air PDAM tidak tersedia",
+      "answer": [
+        "Apabila pada saat melakukan pembayaran wilayah pembayaran air PDAM tidak tersedia, kamu dapat memastikan terlebih dahulu wilayah yang ditulis sudah benar dan sesuai.",
+        "Apabila kamu masih tidak dapat menemukan wilayah kamu untuk pembayaran Air PDAM, silahkan lampirkan halaman yang berkendala untuk ditindaklanjuti oleh tim Tokopedia care."
+      ]
+    },
+    {
+      "question": "Saya ingin menghubungkan beberapa akun tokopedia dengan 1 akun OVO",
+      "answer": [
+        "1. Kamu dapat mengaktifkan lebih dari 1 akun Tokopedia dengan 1 akun OVO untuk nomor handphone yang sama.",
+        "2. Akun Tokopedia yang mengaktifkan OVO pertama kali akan menjadi akun primer yang akan terhubung dengan akun OVO.",
+        "3. Akun lainnya akan menjadi akun sekunder yang terhubung dengan akun OVO."
+      ]
+    },
+    {
+      "question": "Tidak dapat menggunakan OVO di Tokopedia",
+      "answer": [
+        "Penyebab kamu tidak dapat menggunakan OVO di Tokopedia, yaitu melakukan pembayaran dengan OVO Points untuk produk berikut ini:",
+        "1. Tokopedia reksadana",
+        "2. Tokopedia emas",
+        "3. Pembayaran kartu kredit",
+        "4. Transaksi menggunakan promo*",
+        "5. Transaksi tokopedia pada toko reguler**"
+      ]
+    },
+    {
+      "question": "Cara bayar dengan OVO",
+      "answer": [
+        "1. Pastikan saldo OVO cash kamu mencukupi untuk transaksi yang ingin kamu lakukan.",
+        "2. Pada halaman pembayaran, klik pada lihat semua kemudian di bagian dompet digital.",
+        "3. Masukan PIN OVO sebagai verifikasi keamanan. Klik bayar.",
+        "4. Apabila kamu lupa PIN OVO, silakan melakukan Reset PIN pada Aplikasi OVO."
+      ]
+    },
+    {
+      "question": "Cara aktivasi GoPay later",
+      "answer": "GoPay later hadir spesial buat kamu dengan jatuh tempo yang lebih lama hingga 45 hari serta berbagai keuntungan lainnya. Berikut cara aktifkan GoPay later:\n1. Buka halaman GoPay later, klik aktifkan GoPay later.\n2. Baca serta pahami syarat dan ketentuan, lalu klik setuju dengan syarat & ketentuan.\n3. Siapkan identitas berupa KTP, foto selfie, dan data diri.\n4. Pastikan data diri sudah sesuai sebelum klik kirim pendaftaran.\n5. Masukkan kode OTP yang dikirim melalui SMS ke Nomor HP terdaftar.\n6. Pengajuan diproses maksimum 1x24 jam.\n7. Cek status pengajuan melalui ikon GoPay later di halaman utama atau di dashboard GoPay."
+    },
+    {
+      "question": "Mengapa tidak bisa mengaktifkan GoPay later Tokopedia?",
+      "answer": "Saat ini GoPay later hanya tersedia bagi pengguna terpilih. Jika kamu tidak bisa mengaktifkan GoPay later atau ada kendala saat pengajuannya, coba langkah berikut:\n1. Pastikan aplikasi Tokopedia sudah di-update ke versi terbaru.\n2. Clear cache dan relogin ke akun Tokopedia.\n3. Coba perangkat lain atau browser berbeda.\n4. Pastikan pulsa cukup untuk menerima SMS kode OTP."
+    },
+    {
+      "question": "Tagihan GoPay later Tokopedia masih tertagih",
+      "answer": "Cek status pembayaran tagihan GoPay later di dashboard GoPay later atau di aplikasi Gojek. Pastikan tagihan dibayar tepat waktu:\n1. Denda Rp50.000 untuk keterlambatan 1-7 hari setelah jatuh tempo.\n2. Denda tambahan Rp30.000 untuk keterlambatan lebih dari 7 hari.\n3. Jika pembayaran sukses tapi masih tertagih, klik 'Mulai Chat' untuk pengecekan lebih lanjut."
+    },
+    {
+      "question": "Transaksi voucher game/diamond di Tokopedia belum bertambah",
+      "answer": "Coba relogin game dengan keluar dari game melalui app switcher atau menu recent apps, lalu login kembali. Jika voucher game/diamond belum bertambah, hubungi tim Tokopedia Care."
+    },
+    {
+      "question": "Tagihan kartu kredit di Tokopedia masih muncul",
+      "answer": "Pembayaran tagihan kartu kredit diproses maksimal 3 hari kerja sejak transaksi berhasil. Harap bayar 3 hari sebelum jatuh tempo. Untuk pembayaran yang masih muncul:\n1. Cek riwayat transaksi pada dashboard Tokopedia card atau aplikasi BRI.\n2. Jika ada 'Total tagihan yang ditampilkan tidak berubah jika sudah dibayar,' abaikan tagihan bulanan karena akan ter-update pada periode berikutnya.\n3. Kelebihan pembayaran akan menjadi dana cadangan untuk pembayaran mendatang."
+    },
+    {
+      "question": "Cara pembelian unit reksa dana",
+      "answer": "Langkah pembelian unit reksa dana di Tokopedia:\n1. Kunjungi halaman Tokopedia reksa dana, pastikan terdaftar.\n2. Pilih produk reksa dana, klik beli.\n3. Masukkan nominal investasi (minimum Rp10.000).\n4. Pilih metode pembayaran (transfer bank, virtual account, GoPay, dll.).\n5. Unit reksa dana akan diproses maksimal 2 hari kerja."
+    },
+    {
+      "question": "Pengajuan reksa dana di Tokopedia belum disetujui",
+      "answer": "Proses pengajuan membutuhkan waktu maksimal 2x24 jam hari kerja. Jika sudah lebih dari itu, hubungi Tim Tokopedia Care dengan screenshot halaman bermasalah."
+    },
+    {
+      "question": "Apa itu BRI BRIZZI?",
+      "answer": "BRIZZI adalah uang elektronik dari Bank BRI sebagai alat pembayaran untuk belanja atau transaksi lainnya di merchant yang bekerja sama dengan BRI."
+    },
+    {
+      "question": "Dimana tempat membeli Kartu BRIZZI?",
+      "answer": "Kartu BRIZZI dapat dibeli online di Tokopedia, kantor cabang BRI, dan gerai retail seperti Alfamart dan Indomaret."
+    },
+    {
+      "question": "Dimana Top Up Kartu BRIZZI dapat dilakukan?",
+      "answer": "Saldo BRIZZI dapat diisi di Tokopedia atau merchant yang bekerja sama dengan BRI."
+    },
+    {
+      "question": "Bagaimana cara update saldo Brizzi?",
+      "answer": "Cara update saldo Brizzi:\n1. Melalui EDC merchant di gerai retail.\n2. Di kantor cabang BRI.\n3. Menggunakan fitur NFC Tokopedia (Android)."
+    },
+    {
+      "question": "Bagaimana cara cek saldo Brizzi?",
+      "answer": "Cara cek saldo Brizzi dengan NFC Tokopedia:\n1. Klik 'Update Saldo' di transaksi berhasil.\n2. Letakkan kartu di belakang smartphone.\n3. Tunggu hingga update berhasil."
+    },
+    {
+      "question": "Berapa masa berlaku kartu Brizzi?",
+      "answer": "BRIZZI tidak mempunyai masa berlaku."
+    },
+    {
+      "question": "Apa yang perlu dilakukan apabila update saldo Brizzi gagal?",
+      "answer": "Hubungi BRI di kantor cabang atau call center BRI."
+    },
+    {
+      "question": "Apakah kartu Brizzi bisa diuangkan?",
+      "answer": "BRIZZI bisa diuangkan saat penutupan kartu di kantor cabang BRI. Penutupan dilakukan dengan redeem pada EDC BRI dengan struk redeem."
+    },
+    {
+      "question": "Apakah Kartu Brizzi bisa digunakan untuk busway / transjakarta?",
+      "answer": "Ya, kartu Brizzi bisa digunakan untuk pembayaran busway / transjakarta."
+    },
+    {
+      "question": "Apakah kartu Brizzi bisa digunakan untuk pembayaran KRL?",
+      "answer": "Ya, kartu Brizzi bisa digunakan untuk pembayaran KRL."
+    },
+    {
+      "question": "Apakah kartu Brizzi bisa digunakan untuk berbelanja?",
+      "answer": "Ya, kartu Brizzi bisa digunakan untuk belanja di merchant yang memiliki EDC Brizzi."
+    },
+    {
+      "question": "Bagaimana cara melakukan update saldo Brizzi pada gerai retail?",
+      "answer": "Kunjungi gerai retail terdekat dan minta bantuan kasir untuk melakukan update saldo kartu BRI Brizzi."
+    },
+    {
+      "question": "Layanan penjualan produk kesehatan khususnya berlogo merah sudah bisa dinikmati di mana saja?",
+      "answer": "Saat ini, layanan penjualan obat berlogo merah dapat dinikmati di seller Tokopedia yang memiliki izin apotek dan berlogo official store."
+    },
+    {
+      "question": "Bisakah saya membeli obat tanpa resep?",
+      "answer": "Tidak bisa. Sesuai dengan peraturan BPOM nomor 8 Tahun 2020 tentang pengawasan obat dan makanan secara daring, pembelian obat secara daring bertanda (K) harus dengan resep dokter. Kamu tidak akan dapat melanjutkan pesanan jika tidak mengunggah resep dari dokter."
+    },
+    {
+      "question": "Dimana saya dapat mengunggah resep dari dokter?",
+      "answer": "Kamu dapat mengunggah resep obat dari dokter pada halaman pengiriman pada bagian upload foto resep dokter."
+    },
+    {
+      "question": "Mengapa pesanan saya dibatalkan?",
+      "answer": "Ada beberapa hal yang menyebabkan pesananmu dibatalkan, di antaranya:\n1. Kamu tidak meng-upload resep dokter.\n2. Resep tidak sesuai dengan obat yang dipesan.\n3. Stok obat sedang habis.\nNamun kamu tidak perlu khawatir, biaya pemesanan obat akan dikembalikan ke OVO cash/OVO Points/limit kartu kredit/saldo refund, sesuai metode pembayaran yang kamu pilih sebelumnya."
+    },
+    {
+      "question": "Mengapa penjual menolak resep saya?",
+      "answer": "Sebelum mengkonfirmasi pesanan kamu, penjual harus memvalidasi resep yang diunggah terlebih dahulu dan memeriksa apakah:\n1. Resep sesuai dengan produk yang kamu beli.\n2. Resep berasal dari sumber yang valid.\n3. Resep tidak menunjukkan tanda-tanda pemalsuan atau kadaluwarsa.\nJika penjual menemukan kecenderungan pada poin di atas, mereka dapat menolak pesanan kamu. Kamu dapat melihat alasan penolakan saat penjual menolak resep kamu melalui push notif, chat, riwayat transaksi atau detail pesanan."
+    },
+    {
+      "question": "Apa yang dapat saya lakukan jika resep saya ditolak?",
+      "answer": "Jika kamu merasa bahwa resep kamu valid, kamu dapat mengunggah kembali resep kamu melalui tombol unggah ulang pada pesanan kamu di halaman riwayat transaksi/detail pesanan atau melalui fitur chat Tokopedia. Kami sarankan kamu berkonsultasi dengan dokter untuk menghasilkan resep yang sah untuk dibeli secara online."
+    },
+    {
+      "question": "Dimana saya mendapatkan resep dari dokter? Apakah Tokopedia menyediakan konsultasi?",
+      "answer": "Saat ini Tokopedia belum menyediakan konsultasi untuk mendapatkan resep. Kamu dapat berkonsultasi dengan Dokter untuk mendapatkan resep."
+    },
+    {
+      "question": "Resep saya sah dari dokter, kenapa resep saya ditolak?",
+      "answer": "Jika pesanan kamu masih berjalan, kamu dapat menghubungi penjual melalui fitur Chat Penjual. Sebagian besar alasannya adalah karena:\n1. Resep mengandung obat yang tidak dapat dibeli secara online atau memerlukan pemeriksaan offline.\n2. Apoteker menemukan tanda-tanda palsu pada gambar resep.\nNamun jika pesanan kamu dibatalkan karena hal tersebut, kamu dapat menghubungi Tokopedia care untuk penyelidikan lebih lanjut."
+    },
+    {
+      "question": "Apakah saya bisa mengganti foto resep yang sudah di-upload sebelumnya?",
+      "answer": "Untuk mengganti resep, silakan hubungi penjual untuk menolak resep yang telah diunggah. Setelah penjual menolak resep, kamu bisa upload ulang resep dari halaman daftar transaksi atau notifikasi Tokopedia."
+    },
+    {
+      "question": "Apakah saya bisa meng-upload lebih dari 1 resep?",
+      "answer": "Kamu bisa meng-upload maksimum 5 foto. Pastikan ukuran foto tidak melebihi 4 MB."
+    },
+    {
+      "question": "Jika resep saya ditolak, berapa lama waktu yang saya punya untuk meng-upload ulang resep?",
+      "answer": "Kamu dapat meng-upload selama pesanan belum otomatis berakhir. Pastikan untuk meng-upload resep dengan menyisakan waktu yang cukup untuk seller dapat memeriksa dan hindari meng-upload pada waktu tutup toko."
+    },
+    {
+      "question": "Dapatkah saya membeli kembali obat saya dengan resep yang sama?",
+      "answer": "Tokopedia merekomendasikan untuk mendapatkan resep baru untuk pembelian selanjutnya guna menghindari pembatalan pesanan. Tokopedia tidak membenarkan pembelian obat dengan resep bekas atau palsu. Setiap indikasi pembelian menggunakan resep palsu dapat menimbulkan akibat hukum."
+    },
+    {
+      "question": "Mengapa saya hanya diminta meng-upload resep di sejumlah apotik/toko?",
+      "answer": "Saat ini, fitur upload resep hanya tersedia di toko yang tergabung di official store. Tokopedia menyarankan setiap pembeli untuk melakukan transaksi hanya di toko yang tergabung di official store untuk menjamin keaslian dan kualitas obat yang dipesan."
+    },
+    {
+      "question": "Layanan kurir apa saja yang tersedia untuk pengiriman produk kesehatan?",
+      "answer": "Saat ini pembeli dapat memilih berbagai layanan kurir yang disesuaikan dengan pengaturan masing-masing setiap toko."
     }
   ]
 }
